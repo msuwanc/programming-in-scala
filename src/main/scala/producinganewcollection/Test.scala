@@ -1,0 +1,5 @@
+package producinganewcollection
+
+class Test {
+
+}

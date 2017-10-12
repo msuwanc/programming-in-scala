@@ -1,12 +1,15 @@
 import forexpression.ForExpression
 import midstreamvariablebindings.MidStreamVariableBindings
+import producinganewcollection.ProducingANewCollection
 
 object Main extends App {
 //  val forExpression: ForExpression = new ForExpression
 
 //  val nestedIteration: NestedIteration = new NestedIteration
 
-  val midStreamVariableBindings: MidStreamVariableBindings = new MidStreamVariableBindings
+//  val midStreamVariableBindings: MidStreamVariableBindings = new MidStreamVariableBindings
+
+  val producingANewCollection: ProducingANewCollection = new ProducingANewCollection
 
   //  forExpression.printFilesByDirectory("./src")
 

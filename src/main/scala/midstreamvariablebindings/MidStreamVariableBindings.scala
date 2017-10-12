@@ -8,7 +8,7 @@ class MidStreamVariableBindings {
   def fileLines(file: java.io.File) =
     scala.io.Source.fromFile(file).getLines.toList
 
-  def grep(pattern: String) =
+  def grep(pattern: String): Unit =
     for {
       file <- filesHere
       if file.getName.endsWith(".scala")
