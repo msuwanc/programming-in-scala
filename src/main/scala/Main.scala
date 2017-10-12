@@ -1,9 +1,12 @@
 import forexpression.ForExpression
+import midstreamvariablebindings.MidStreamVariableBindings
 
 object Main extends App {
-  val forExpression: ForExpression = new ForExpression
+//  val forExpression: ForExpression = new ForExpression
 
-  val nestedIteration: NestedIteration = new NestedIteration
+//  val nestedIteration: NestedIteration = new NestedIteration
+
+  val midStreamVariableBindings: MidStreamVariableBindings = new MidStreamVariableBindings
 
   //  forExpression.printFilesByDirectory("./src")
 
@@ -13,5 +16,5 @@ object Main extends App {
 
 //  forExpression.printOnlyScalaSuffixFilesByDirectory("./src/main/scala/forexpression")
 
-  forExpression.printOnlyScalaFilesByDirectory("./src/main/scala/forexpression")
+//  forExpression.printOnlyScalaFilesByDirectory("./src/main/scala/forexpression")
 }
